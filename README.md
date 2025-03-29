@@ -30,9 +30,9 @@ It can also use `json-server` for storing and retrieving expenses from a databas
 ##  Getting Started
 
 ### 1️ Clone the Repository
-fork the repository in my git hub account https://github.com/Silvermnati
-git clone https://github.com/Silvermnati/Expense-Tracker.git
-cd Expense-Tracker
+fork the repository in my git hub account https://silvermnati.github.io/expense_tracker/
+git clone https://github.com/Silvermnati/expense_tracker.git 
+cd expense_tracker
 
 ### 2 Install json-server
 npm install -g json-server
