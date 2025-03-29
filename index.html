@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Expense Tracker App</h1>
-    <div class = "input-section">
+    <div class="input-section">
         <label for='category-select'>Category:</label>
         <select id='category-select'>
             <option value=''>Select Category</option>
@@ -20,13 +20,13 @@
         </select>
 
         <label for='amount-input'>Amount:</label>
-        <input type='number' id='amount-input' placeholder='Enter Amount'>
+        <input type='number' id='amount-input' placeholder='Enter Amount'aria-label="Expense amount" required>
         <label for='date-input'>Date:</label>
-        <input type='date' id='date-input'>
+        <input type='date' id='date-input' aria-label="Expense date" required>
         <button id='add-btn'>Add</button>
     </div>
 
-    <div class = "expenses-list">
+    <div class="expenses-list">
         <h2>Expenses List</h2>
         <table>
             <thead>
@@ -35,24 +35,23 @@
                     <th>Amount</th>
                     <th>Date</th>
                     <th>Delete</th>
-                    </tr>
+                </tr>
             </thead>
             <tbody id='expenses-table-body'>
-
-            </tbody>
-            </tfoot>
-                <tr>
-                    <td>Total:</td>
-                    <td id='total-expenses'>0</td>
-                    <td></td>
-                    <td></td>
+                <tr id='no-expenses'>
+                    <td colspan="4" style="text-align:center;">No expenses added yet.</td>
                 </tr>
+            </tbody>
+                        <tr>
+                                                    </tfoot>
+                <td>Total:</td>
+                <td id='total-expenses'>0</td>
+                <td></td>
+                <td></td>
+            </tr>
             </tfoot>
         </table>
     </div>
-    
-        
-        
     <script src="./scripts/index.js"></script>
 </body>
 </html>
