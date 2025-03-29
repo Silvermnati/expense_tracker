@@ -1,3 +1,10 @@
 {
-  "expenses": []
+  "expenses": [
+    {
+      "id": "f763",
+      "category": "food",
+      "amount": "200",
+      "date": "2005-02-02"
+    }
+  ]
 }
